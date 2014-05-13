@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MININT-M4Q1VCV</Machine>
+    <WindowsUser>Administrator</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\RadioRss.exe">
+      <PackagePath>RadioRss.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\RadioRss.pdb">
+      <PackagePath>RadioRss.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\packages\Callisto.1.3.1\lib\winrt45\Callisto.dll">
+      <PackagePath>Callisto.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.pdb">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\GalaSoft.MvvmLight.Win8.pdb">
+      <PackagePath>GalaSoft.MvvmLight.Win8.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\Microsoft.Practices.ServiceLocation.pdb">
+      <PackagePath>Microsoft.Practices.ServiceLocation.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\GalaSoft.MvvmLight.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Win8.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\Microsoft.Practices.ServiceLocation.xml">
+      <PackagePath>Microsoft.Practices.ServiceLocation.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Assets\New\logo_big.png">
+      <PackagePath>Assets\New\logo_big.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Assets\New\logo_normal.png">
+      <PackagePath>Assets\New\logo_normal.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Assets\New\logo_small.png">
+      <PackagePath>Assets\New\logo_small.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Assets\New\logo_start view.png">
+      <PackagePath>Assets\New\logo_start view.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Assets\New\logo_store.png">
+      <PackagePath>Assets\New\logo_store.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\FunScreen\Image\airplane.png">
+      <PackagePath>FunScreen\Image\airplane.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\FunScreen\Image\ball.png">
+      <PackagePath>FunScreen\Image\ball.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\FunScreen\play.png">
+      <PackagePath>FunScreen\play.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\art.png">
+      <PackagePath>Image\art.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\BackGround\BG4.png">
+      <PackagePath>Image\BackGround\BG4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\ByTeam\cho2.png">
+      <PackagePath>Image\ByTeam\cho2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\Loading .png">
+      <PackagePath>Image\Loading .png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\loading_bg.png">
+      <PackagePath>Image\loading_bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\loading_message.png">
+      <PackagePath>Image\loading_message.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\MusicBox\music_back.png">
+      <PackagePath>Image\MusicBox\music_back.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\MusicBox\music_forward.png">
+      <PackagePath>Image\MusicBox\music_forward.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\MusicBox\music_pause.png">
+      <PackagePath>Image\MusicBox\music_pause.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\MusicBox\music_play.png">
+      <PackagePath>Image\MusicBox\music_play.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\MVVMLight.Nuget.Readme.txt">
+      <PackagePath>MVVMLight.Nuget.Readme.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\BackGround\BG1.jpg">
+      <PackagePath>Image\BackGround\BG1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\BackGround\BG2.jpg">
+      <PackagePath>Image\BackGround\BG2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\BackGround\BG3.jpg">
+      <PackagePath>Image\BackGround\BG3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\BackGround\testImg1.jpg">
+      <PackagePath>Image\BackGround\testImg1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\BackGround\testImg2.jpg">
+      <PackagePath>Image\BackGround\testImg2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\ByTeam\lee.jpg">
+      <PackagePath>Image\ByTeam\lee.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\Image\ByTeam\park.jpg">
+      <PackagePath>Image\ByTeam\park.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\FunScreen\FunScreenMain.xaml">
+      <PackagePath>FunScreen\FunScreenMain.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\FunScreen\user2.xaml">
+      <PackagePath>FunScreen\user2.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\FunScreen\user3.xaml">
+      <PackagePath>FunScreen\user3.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\FunScreen\user4.xaml">
+      <PackagePath>FunScreen\user4.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\ViewControl\ByTeam.xaml">
+      <PackagePath>ViewControl\ByTeam.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\ViewControl\ChannelsListControl.xaml">
+      <PackagePath>ViewControl\ChannelsListControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\ViewControl\FunScreenSettings.xaml">
+      <PackagePath>ViewControl\FunScreenSettings.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\ViewControl\ItemsListControl.xaml">
+      <PackagePath>ViewControl\ItemsListControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\ViewControl\LiveTileControl.xaml">
+      <PackagePath>ViewControl\LiveTileControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\ViewControl\MusicPlayerControl.xaml">
+      <PackagePath>ViewControl\MusicPlayerControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\ViewControl\PrivacyPolicy.xaml">
+      <PackagePath>ViewControl\PrivacyPolicy.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\ViewControl\SelectBackground.xaml">
+      <PackagePath>ViewControl\SelectBackground.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\View\MainCategoryPage.xaml">
+      <PackagePath>View\MainCategoryPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\View\PodCastChannelsPage.xaml">
+      <PackagePath>View\PodCastChannelsPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\View\PodCastItemsPage.xaml">
+      <PackagePath>View\PodCastItemsPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\packages\Callisto.1.3.1\lib\winrt45\Callisto\themes\Generic.xaml">
+      <PackagePath>Callisto\themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Documents\Visual Studio 2012\Projects\RadioRss\RadioRss\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿<UserControl
+    x:Class="RadioRss.ViewControl.LiveTileControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RadioRss.ViewControl"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:callisto="using:Callisto.Controls"
+    mc:Ignorable="d"
+    d:DesignHeight="500"
+    d:DesignWidth="300">
+    
+    <Grid>
+        <callisto:LiveTile x:Name="liveTile"
+						   ItemsSource="{Binding}"
+						   BorderBrush="White" BorderThickness="1"
+						   Margin="5,5,10,5" Background="LightBlue" Grid.ColumnSpan="2">
+            <callisto:LiveTile.ItemTemplate>
+                <DataTemplate>
+                    <Grid >
+                        <Image Stretch="UniformToFill" >
+                            <Image.Source>
+                                <BitmapImage x:Name="BackgroundImg"  UriSource="{Binding ImageUri}" />
+                            </Image.Source>
+                        </Image>
+                        <Border Background="#99000000" VerticalAlignment="Bottom">
+                            <Grid>
+                                <Button x:ConnectionId='1' Foreground="#00000000" Background="#00000000" BorderBrush="#00000000" Height="115" Margin="0,5" Width="280" Canvas.ZIndex="99"                              Opacity="0"></Button>
+                                <StackPanel Margin="5">
+                                    <TextBlock x:Name="TB_Name" Height="50"  Foreground="White" Text="{Binding Name}" FontWeight="Bold" FontSize="20" />
+                                    <TextBlock x:Name="TB_Description"  Foreground="White" Text="{Binding Description}"
+										   TextWrapping="Wrap" FontSize="14"
+										   MaxHeight="30" TextTrimming="WordEllipsis" Height="50" />
+                                    <HyperlinkButton x:ConnectionId='2' x:Name="BTN_Link"
+                                    Content="read more..."
+									   Grid.Row="2" 
+									   HorizontalAlignment="Right"
+									   Tag="{Binding ReadMoreUri}"
+									   Foreground="LightGray"
+									                                DataContext="{Binding Source={StaticResource Locator}}" Command="{Binding Main.CMD_MovePodCastItemsPage, Mode=OneWay}" />
+                                </StackPanel>
+                            </Grid>
+                            
+                        </Border>
+                    </Grid>
+                </DataTemplate>
+            </callisto:LiveTile.ItemTemplate>
+        </callisto:LiveTile>
+    </Grid>
+</UserControl>
+

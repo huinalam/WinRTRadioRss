@@ -1,0 +1,38 @@
+﻿<UserControl
+    x:Class="RadioRss.ViewControl.MusicPlayerControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RadioRss.ViewControl"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="600"
+    d:DesignWidth="600">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="450"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Viewbox Grid.Row="0">
+            <Grid>
+                <Image x:Name="previewImage"  HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="600" Stretch="Fill"/>
+            </Grid>
+        </Viewbox>
+        <Viewbox Grid.Row="1">
+            <Grid>
+                <StackPanel Orientation="Horizontal" d:IsHidden="True">
+                    <StackPanel/>
+                    <MediaElement x:ConnectionId='5' x:Name="MusicMedia" AudioCategory="BackgroundCapableMedia"                                                                          />
+                </StackPanel>
+                <Button x:ConnectionId='1' x:Name="BTN_Play" Content="▶" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                        Height="50" Margin="-53,17,223,17" Width="50" />
+                <Button x:ConnectionId='2' x:Name="BTN_Stop" Content="■" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                        Height="50" Margin="-3,17,166,17" Width="50" />
+                <Slider x:ConnectionId='3' x:Name="TimeSlider"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="166"                                        Margin="59,3,-5,0" Height="37" Foreground="#CC4617B4"/>
+                <TextBlock x:Name="DurationText" FontSize="15" Margin="59,40,89,26"/>
+                <TextBlock x:Name="DurationMaxText" FontSize="15" Margin="144,40,4,26"/>
+                <Slider x:ConnectionId='4' x:Name="SoundSlider" VerticalAlignment="Center" Width="30"                                         Value="100" RenderTransformOrigin="0.5,0.5" Orientation="Vertical" HorizontalAlignment="Center" Height="50" Margin="225,17,-35,17" Foreground="#CCFFC89B"/>
+            </Grid>
+        </Viewbox>
+    </Grid>
+</UserControl>
+
